@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real estate</title>
+  <link rel="stylesheet" href="ibiza.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+ 
+  <div class="section">
+ 
+
+    <nav class="navbar navbar-expand-lg  ">
+      <div class="container-xxl   m-4">
+
+        <img src="main-logo.svg" width="90px" alt="logo">
+
+        <button class="navbar-toggler  " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fs-2 d-flex justify-content-center align-items-center   "><i
+              class="fa-solid fa-bars    "></i></span>
+        </button>
+        <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+          <ul class="navbar-nav items me-auto mb-5  mb-lg-0">
+            <li class="nav-item   ">
+              <a class="nav-link active" aria-current="page" href="#">SALES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">RENTALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">PURCHASE GUIDANCE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+            </li>
+          </ul>
+
+        </div>
+        <form class="  right   ">
+          <div class="dropdown">
+            <button class="right-btn3    dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              EN
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark bg-transparent  border-light  "
+              aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item  text-light " href="#">DE</a></li>
+              <li><a class="dropdown-item  text-light" href="#">BE</a></li>
+              <li><a class="dropdown-item  text-light" href="#">NL</a></li>
+            </ul>
+          </div>
+          <button class="right-btn1" type="submit"><a href="">FAVORITES</a><i
+              class="fa-regular fa-heart  "></i></button>
+          <button class="right-btn2" type="submit"><i class="fa-solid fa-lock  "></i><a href="">LOGIN</a></button>
+        </form>
+      </div>
+    </nav>
+
+    <main class="inner-caption  text-center">
+      <h1>Ibiza Estates: your real estate agent in Ibiza</h1>
+
+      <div class="search-filters d-inline-block text-left">
+        <div class="tab">
+          <button class="tab_btn btn_sale bg-white">SALES</button>
+          <button class="btn_rent tab_btn btn_hover">rentals</button>
+        </div>
+
+      </div>
+      <div class="search-filters1 d-inline-block">
+        <form action="">
+          <div class="first-r">
+            <div class="left">
+              <div class="left-items ">
+                <div class="f-input">
+                  <label for="" class=" ">PRICE FROM</label>
+                  <select name="price_from" id="price-from" class="select2-hidden-accessible"
+                    aria-placeholder="Price from">
+                    <option value="" class="">Price from</option>
+                    <option value="100000">€ 100.000</option>
+                    <option value="200000">€ 200.000</option>
+                    <option value="300000">€ 300.000</option>
+                    <option value="400000">€ 400.000</option>
+                    <option value="500000">€ 500.000</option>
+                    <option value="600000">€ 600.000</option>
+                    <option value="700000">€ 700.000</option>
+                    <option value="800000">€ 800.000</option>
+                    <option value="900000">€ 900.000</option>
+                    <option value="1000000">€ 1.000.000</option>
+                    <option value="1500000">€ 1.500.000</option>
+                    <option value="2000000">€ 2.000.000</option>
+                    <option value="2500000">€ 2.500.000</option>
+                    <option value="3000000">€ 3.000.000</option>
+                    <option value="3500000">€ 3.500.000</option>
+                    <option value="4000000">€ 4.000.000</option>
+                    <option value="4500000">€ 4.500.000</option>
+                    <option value="5000000">€ 5.000.000</option>
+                    <option value="10000000">€ 10.000.000</option>
+                  </select>
+                </div>
+                <div class="f-input ">
+                  <label for="">PRICE TO</label>
+                  <select name="price_from" id="price-from" class="select2-hidden-accessible">
+                    <option value="">Price to</option>
+                    <option value="100000">€ 100.000</option>
+                    <option value="200000">€ 200.000</option>
+                    <option value="300000">€ 300.000</option>
+                    <option value="400000">€ 400.000</option>
+                    <option value="500000">€ 500.000</option>
+                    <option value="600000">€ 600.000</option>
+                    <option value="700000">€ 700.000</option>
+                    <option value="800000">€ 800.000</option>
+                    <option value="900000">€ 900.000</option>
+                    <option value="1000000">€ 1.000.000</option>
+                    <option value="1500000">€ 1.500.000</option>
+                    <option value="2000000">€ 2.000.000</option>
+                    <option value="2500000">€ 2.500.000</option>
+                    <option value="3000000">€ 3.000.000</option>
+                    <option value="3500000">€ 3.500.000</option>
+                    <option value="4000000">€ 4.000.000</option>
+                    <option value="4500000">€ 4.500.000</option>
+                    <option value="5000000">€ 5.000.000</option>
+                    <option value="10000000">€ 10.000.000</option>
+
+                  </select>
+                </div>
+
+
+                <div class="f-input ">
+                  <label for="">LOCATION</label>
+                  <select name="price_from" id="price-from" class="select2-hidden-accessible">
+                    <option value="">All location</option>
+                    <option value=" ">Formentera </option>
+                    <option value="">Ibiza </option>
+                    <option value=""> San antonio </option>
+                    <option value="">San Jose </option>
+                    <option value=""> San Juan </option>
+                    <option value=""> Santa Eulalia </option>
+
+
+                  </select>
+                </div>
+
+
+              </div>
+
+              <div class="left-items1  d-flex">
+                <div class="s-input">
+                  <label for="" class=" ">Bedrooms (Minimum)</label>
+                  <select name="price_from" id="price-from" class="select2-hidden-accessible"
+                    aria-placeholder="Price from">
+                    <option value="" class="">Choose bedrooms</option>
+                    <option value="">1 bedroom </option>
+                    <option value="">2 bedroom</option>
+                    <option value="">3 bedroom</option>
+                    <option value="">4 bedroom</option>
+                    <option value="">5 bedroom</option>
+                    <option value="">6 bedroom </option>
+
+                  </select>
+                </div>
+
+                <div class="s-input">
+                  <label for="" class=" ">Property Type</label>
+                  <select name="price_from" id="price-from" class="select2-hidden-accessible"
+                    aria-placeholder="Price from">
+                    <option value="" class="">Choose type</option>
+                    <option value="">Apartment </option>
+                    <option value="">Villa/Home</option>
+                    <option value="">Finca</option>
+                    <option value="">Plot</option>
+
+                  </select>
+                </div>
+
+                <div class="s-input ">
+                  <label for="" class=" ">Extra</label>
+                  <select name="price_from" id="price-from" class="select2-hidden-accessible"
+                    aria-placeholder="Price from">
+                    <option value="" class="">Choose Extra</option>
+                    <option value="">swimming Pool </option>
+                    <option value="">sea view</option>
+                    <option value="">Rental License</option>
+                    <option value="">New construction</option>
+                    <option value="">Guest house</option>
+
+
+                  </select>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="right">
+              <div class="hamicon"> <i class="icon fas fa-sliders-h"></i></div>
+              <button class="search btn-primary "> SEARCH <i class="fas fa-arrow-right"> </i> </button>
+            </div>
+
+          </div>
+          <div class="pros-list   ">
+            <ul>
+              <li>
+                <i class="icon fas fa-check"></i>
+                <p>Offices in <a href="#ibiaz_office">Ibiza</a> and <a href="#eindhoven_office">Eindhoven</a></p>
+              </li>
+              <li>
+                <i class="icon fas fa-check"></i>
+                <p>Always More Than 80 Houses Available</p>
+              </li>
+              <li>
+                <i class="icon fas fa-check"></i>
+                <p>Over 250 houses sold</p>
+              </li>
+              <li>
+                <i class="icon fas fa-check"></i>
+                <p>We <a href="#customer_satisfaction">score a 9.2</a> customer satisfaction </p>
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+    <section class="main-section">
+      <div class="container-fluid ">
+        <div class="header-part text-center">
+          <h2>Selected apartments, holiday homes and villas</h2>
+          <p>These properties are the best finds on the island. Go and explore quick before they are gone.</p>
+        </div>
+        <div class="img-section">
+          <figure style="width: 50%;  ">
+            <div class="f-img ">
+              <figcaption class="detail">
+                <i class="icon fas fa-map-marker-alt"></i>
+                <p>san Jordi</p>
+                <em class="oval"></em>
+                <span class="price">€ 4.450.000</span>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="next-half" style="    width: 50%;   ">
+            <div class="f-row">
+              <figure>
+                <div class="s-img">
+                  <figcaption class="detail">
+                    <i class="icon fas fa-map-marker-alt"></i>
+                    <p>san Jordi</p>
+                    <em class="oval"></em>
+                    <span class="price">€ 4.450.000</span>
+                  </figcaption>
+                </div>
+              </figure>
+
+
+              <figure>
+                <div class="s-img">
+                  <figcaption class="detail">
+                    <i class="icon fas fa-map-marker-alt"></i>
+                    <p>san Jordi</p>
+                    <em class="oval"></em>
+                    <span class="price">€ 4.450.000</span>
+                  </figcaption>
+                </div>
+              </figure>
+
+            </div>
+            <div class="s-row">
+              <figure>
+                <div class="s-img">
+                  <figcaption class="detail">
+                    <i class="icon fas fa-map-marker-alt"></i>
+                    <p>san Jordi</p>
+                    <em class="oval"></em>
+                    <span class="price">€ 4.450.000</span>
+                  </figcaption>
+                </div>
+              </figure>
+
+              <figure>
+                <div class="s-img">
+                  <figcaption class="detail">
+                    <i class="icon fas fa-map-marker-alt"></i>
+                    <p>san Jordi</p>
+                    <em class="oval"></em>
+                    <span class="price">€ 4.450.000</span>
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          </figure>
+        </div>
+
+      </div>
+    </section>
+ 
+
+    <section class="location-section" >
+      <main  class="container-xxl" >
+        <header>
+          <h2>House in Ibiza: discover the most exclusive areas</h2>
+          <p>Buying an apartment, holiday home or luxury villa in Ibiza Town and the surrounding area or curious
+            about the offer in the second city of San Antonio? Discover the special areas around San José and San Juan,
+            as well as in the Santa Eulalia area. <br> <br> Our real estate agents in Ibiza are happy to tell you more about the
+            properties for sale.
+            From a cozy apartment to the large holiday homes and of course the luxury villas. In their unique environment and,
+            for example,
+            with a beautiful view over the bay. With a breathtaking sunset and with all possible amenities within easy reach. We
+            are your
+            experienced estate agent in Ibiza, with excellent knowledge of the island and the locally available properties. </p>
+        </header>
+       <div  class="row" >
+        <figure class="location-img" >
+          <figcaption>
+            <span  class="locate-title">Ibiza</span>
+            <span  class="properties-count  ">76 Properties</span>
+          </figcaption>
+        </figure> 
+        <figure class="location-img" >
+          <figcaption>
+            <span  class="locate-title">Ibiza</span>
+            <span  class="properties-count  ">76 Properties</span>
+          </figcaption>
+        </figure>
+        <figure class="location-img" >
+          <figcaption>
+            <span  class="locate-title">Ibiza</span>
+            <span  class="properties-count  ">76 Properties</span>
+          </figcaption>
+        </figure>
+        <figure class="location-img" >
+          <figcaption>
+            <span  class="locate-title">Ibiza</span>
+            <span  class="properties-count  ">76 Properties</span>
+          </figcaption>
+        </figure>
+        <figure class="location-img" >
+          <figcaption>
+            <span  class="locate-title">Ibiza</span>
+            <span  class="properties-count  ">76 Properties</span>
+          </figcaption>
+        </figure>
+       </div>
+      </main>
+    </section>
+ 
+
+
+
+ 
+  <section class="review-sec"  >
+   <div  class="container-xxl">
+    <header  class="heading-part text-center" >
+         <h3>Read what clients say about Ibiza Estates</h3>
+     </header>
+
+     <div class="customer-review" >
+     <div class="customer-details" > 
+      <div class="date-details"   >
+        <span class="date" >March 2024</span>
+        <figure  class="review-img " >
+          <img src="img3.jpg"  width="180px" alt="">
+        </figure>
+      </div>
+<div  class="detail-text">
+  <p   >
+    ''We are Erik and Linda, and after a quarter of a century of dreaming, we have finally managed to get our own piece of Ibiza. 
+    It was a long journey that started in 2008 with the idea of buying land in Cala Codolar , which was not yet feasible at the time.
+     But in 2021 our idea of owning a second home in Ibiza finally came to fruition. Thanks to the expert support of Ibiza Estates,
+      we found our dream home: a beautiful villa in Cala Codolar . They arranged everything for us, 
+    from viewings to putting us in touch with lawyers and architects. Now we are fully enjoying our own piece of paradise.''
+  </p>
+  <a href=""  class="Sho-more" >Show complete Description
+     <i  class="icon fas fa-chevron-down" ></i>
+  </a>
+</div>
+     </div>
+    
+     <div class="customer-details" > 
+      <div class="date-details"   >
+        <span class="date" >March 2024</span>
+        <figure  class="review-img " >
+          <img src="img3.jpg"  width="180px" alt="">
+        </figure>
+      </div>
+<div  class="detail-text">
+  <p   >
+    ''We are Erik and Linda, and after a quarter of a century of dreaming, we have finally managed to get our own piece of Ibiza. 
+    It was a long journey that started in 2008 with the idea of buying land in Cala Codolar , which was not yet feasible at the time.
+     But in 2021 our idea of owning a second home in Ibiza finally came to fruition. Thanks to the expert support of Ibiza Estates,
+      we found our dream home: a beautiful villa in Cala Codolar . They arranged everything for us, 
+    from viewings to putting us in touch with lawyers and architects. Now we are fully enjoying our own piece of paradise.''
+  </p>
+  <a href=""  class="Sho-more" >Show complete Description
+     <i  class="icon fas fa-chevron-down" ></i>
+  </a>
+</div>
+     </div>
+
+
+     <div class="customer-details" > 
+      <div class="date-details"   >
+        <span class="date" >March 2024</span>
+        <figure  class="review-img " >
+          <img src="img3.jpg"  width="180px" alt="">
+        </figure>
+      </div>
+<div  class="detail-text">
+  <p   >
+    ''We are Erik and Linda, and after a quarter of a century of dreaming, we have finally managed to get our own piece of Ibiza. 
+    It was a long journey that started in 2008 with the idea of buying land in Cala Codolar , which was not yet feasible at the time.
+     But in 2021 our idea of owning a second home in Ibiza finally came to fruition. Thanks to the expert support of Ibiza Estates,
+      we found our dream home: a beautiful villa in Cala Codolar . They arranged everything for us, 
+    from viewings to putting us in touch with lawyers and architects. Now we are fully enjoying our own piece of paradise.''
+  </p>
+  <a href=""  class="Sho-more" >Show complete Description
+     <i  class="icon fas fa-chevron-down" ></i>
+  </a>
+</div>
+     </div>
+
+    </div>
+
+
+   </div>
+  </section>
+
+<section  class="about-sec"  >
+  <div class="container-fluid  c-sec " >
+    <div class="row " >
+      <div class="col-6 desc-text align-self-center  " > 
+        <div class="mb-md-4 h-text">
+          <a href="/en/dutch-real-estate-broker-ibiza">About Ibiza Estates</a>
+        </div>
+        <p  class="d-text" >Ibiza Estates is an experienced and independent real estate agent in Ibiza. Our team of local and international
+          specialists will fully assist you during the process of <a
+            href="">buying
+            in Ibiza</a> or during the sales. Ibiza Estates offers guidance from A to Z, in which we work closely with our
+          carefully
+          built network of lawyers, architects and tax specialists.</p>
+         
+          <a href="" class="btn-outline-primary btn-lg">More about Ibiza Estates</a>
+
+
+      </div>
+  <div class="col-6 desc-img align-self-center d-flex justify-content-center "  >
+      <figure  class="d-img" >
+        <img src="about.jpg"  width="580px"  alt="">
+      </figure>
+  </div>
+    </div> 
+
+  </div>
+
+</section>
+
+<section class="footer-section" >
+  <div class="container-fluid f-con " >
+    <div class="row r-1 " >
+      <div class="col-4  c-4" >
+       
+        <form action="" class="foot-form">
+          <h6 class="hd-text"  >Send us a message</h6>
+        <div class="form-group" ><input type="text" placeholder="Enter your first name"   required="required" ></div>
+        <div class="form-group" ><input type="text" placeholder="Enter your surename"   required="required" ></div>
+        <div class="form-group" ><input type="email" placeholder="Enter your email "   required="required" ></div>
+        <div class="form-group" ><input type="tel" placeholder="Enter your phone number "   required="required" ></div>
+        <div   class="form-group">
+          <textarea name="contactUs"  placeholder="How can we help you?"  required="required"  rows="5"></textarea>
+        </div>
+        <div class="form-group1 ">
+          <input type="checkbox"  class="f-checkbox1" required="">
+          <label  for="f-checkbox1">
+          I have read and agree to the <a href="">Terms and Conditions</a>
+          </label>
+          </div>
+          <div class="form-buttton">
+            <input type="submit"  class="btn-primary sub-bt "  value="Send" >
+            </div>
+        </form>
+      </div>
+   <div class="col-2 foot-address  " > 
+     <h6 class="hd-text" >Office Ibiza</h6>
+     <address class="addr  d-flex" >
+      <i class="icon fas fa-map-marker-alt" ></i>
+       <p  class="addr-text">
+        Ibiza Estates <br>
+        carrer des Cap Martinet 19 <br>
+        07819 Jesus Ibiza  <br>
+        Spain
+       </p>  
+     </address>
+     <p class="p-no" >
+      <i class="icon fas fa-mobile"></i>
+      <a href="+34 871 183 071">+34 871 183 071</a>
+     </p>
+
+     <p class="p-no" >
+      <i class="icon far fa-envelope"></i>
+      <a href="mailto:info@ibiza-estate.com">info@ibiza-estate.com</a>
+     </p>
+
+     <p class="p-no" >
+      <i class="icon fab fa-whatsapp"></i>
+      <a href="">Whatsapp +34 689725341 </a>
+     </p>
+
+   </div>
+
+   <div class="col-2 foot-address  " > 
+    <h6 class="hd-text" >Office The Netherland</h6>
+    <address class="addr  d-flex" >
+     <i class="icon fas fa-map-marker-alt" ></i>
+      <p  class="addr-text">
+       Ibiza Estates <br>
+       carrer des Cap Martinet 19 <br>
+       07819 Jesus Ibiza  <br>
+       Spain
+      </p>  
+    </address>
+    <p class="p-no" >
+     <i class="icon fas fa-mobile"></i>
+     <a href="+34 871 183 071">+34 871 183 071</a>
+    </p>
+
+    <p class="p-no" >
+     <i class="icon far fa-envelope"></i>
+     <a href="mailto:info@ibiza-estate.com">info@ibiza-estate.com</a>
+    </p>
+
+    <p class="p-no" >
+     <i class="icon fab fa-whatsapp"></i>
+     <a href="">Whatsapp +34 689725341 </a>
+    </p>
+
+  </div>
+
+  <div class="col-2 foot-address  " > 
+    <h6 class="hd-text" >Office Belgium</h6>
+    <address class="addr  d-flex" >
+     <i class="icon fas fa-map-marker-alt" ></i>
+      <p  class="addr-text">
+       Ibiza Estates <br>
+       carrer des Cap Martinet 19 <br>
+       07819 Jesus Ibiza  <br>
+       Spain
+      </p>  
+    </address>
+    <p class="p-no" >
+     <i class="icon fas fa-mobile"></i>
+     <a href="+34 871 183 071">+34 871 183 071</a>
+    </p>
+
+    <p class="p-no" >
+     <i class="icon far fa-envelope"></i>
+     <a href="mailto:info@ibiza-estate.com">info@ibiza-estate.com</a>
+    </p>
+
+    <p class="p-no" >
+     <i class="icon fab fa-whatsapp"></i>
+     <a href="">Whatsapp +34 689725341 </a>
+    </p>
+
+  </div>
+
+<div  class="col-2  f-social" >
+  <h6 class="hd-text" >Office Belgium</h6>
+  <p>
+    <i class="icon fab fa-instagram" ></i>
+    <a href="" target="_blank" >Instagram</a>
+  </p>
+ 
+  <p>
+    <i class="icon fab fa-facebook-square" ></i>
+    <a href="" target="_blank" >Facebook</a>
+  </p>
+  
+  <p>
+    <i class="icon fab fa-pinterest" ></i>
+    <a href="" target="_blank" >Pinterest</a>
+  </p>
+
+  <p>
+    <i class="icon fab fa-youtube" ></i>
+    <a href="" target="_blank" >Youtube</a>
+  </p>
+
+  <p>
+    <i class="icon fab fa-twitter-square" ></i>
+    <a href="" target="_blank" >Twitter</a>
+  </p>
+
+  <p>
+    <i class="icon fab fa-linkedin" ></i>
+    <a href="" target="_blank" >Linkedin</a>
+  </p>
+
+  </div>
+
+ </div>
+ </div>
+</section>
+<footer class="main-footer" >
+<div class="container-xxl  fm-con " >
+  <div class="row  f-subs ">
+    <div class="col-3 f-col " >
+      <h5 class="f-title"  >Subscribe to our newsletter</h5>
+      <p class="title-text" > Join 2.500 members and get the latest news about real estate trends, new properties for sale in Ibiza & design. </p>
+      <a href=""   class="title-link" >Subscribe to our newsletter</a>
+    </div>
+
+    <div class="col-3 s-col" >
+      <h5  class="f-title" ><a href="">Blog</a></h5>
+      <ul>
+        <li>
+          <i class='fas fa-chevron-right'></i>
+          <a href="">Happy Easter from Ibiza!</a>
+        </li>
+        <li>
+          <i class='fas fa-chevron-right'></i>
+          <a href="">Applying for a mortgage in Ibiza: how does it work?</a>
+        </li>
+        <li>
+          <i class='fas fa-chevron-right'></i>
+          <a href="">Buying a house in Ibiza: 6 things not to overlook</a>
+        </li>
+        <li>
+          <i class='fas fa-chevron-right'></i>
+          <a href="">Buy business or private in Ibiza: which is the best way?</a>
+        </li>
+        <li>
+          <i class='fas fa-chevron-right'></i>
+          <a href="">Purchase costs: what does it cost to buy a house in Ibiza?</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-3   s-col">
+    
+      <h5  class="f-title" ><a href="">Ibiza Estates in the media</a></h5>
+      <ul>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">Xplore Ibiza</a>
+        </li>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">Xplore Ibiza</a>
+        </li>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">Xplore Ibiza</a>
+        </li>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">Morna 50 Years Anniversary Yearbook 2023</a>
+        </li>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">Voorma en Walch</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="col-3 s-col  ss-col " >
+      <h5  class="f-title" ><a href="">Menu</a></h5>
+      <ul>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">PROPERTIES</a>
+        </li>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">TRENTALS</a>
+        </li>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">PURCHASE GUIDANCE</a>
+        </li>
+        <li>
+          <i class='fas fa-chevron-right'></i>
+          <a href="">SELL YOUR PROPERTY</a>
+        </li>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">ABOUT US</a>
+        </li>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">CONTACT</a>
+        </li>
+        <li>
+           <i class='fas fa-chevron-right'></i>
+          <a href="">VACNCIES</a>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+
+</div>
+
+</footer>
+
+
+
+
+<footer  >
+  <div  class="foter-bottom" >
+  <div class="container-fluid L-con ">
+   <div  class="row">
+     <div class="col-3" >
+       <div class="inner-item d-inline-flex align-items-center" >
+     <i class="icon fas fa-trophy" ></i>
+     <p>
+       We score a 
+       <strong>9.2</strong>
+      from our customer
+     </p>
+       </div>
+    </div>
+
+    <div class="col-3" >
+      <div class="inner-item d-inline-flex align-items-center" >
+    <i class="icon fas fa-home" ></i>
+    <p>
+      Access to the most beautiful properties
+    </p>
+      </div>
+   </div>
+
+
+
+   <div class="col-3" >
+    <div class="inner-item d-inline-flex align-items-center" >
+  <i class="icon fas fa-thumbs-up" ></i>
+  <p>
+    Transparent, efficient and professional
+  </p>
+    </div>
+ </div>
+
+
+ <div class="col-3" >
+  <div class="inner-item d-inline-flex align-items-center" >
+<i class="icon fas fa-user-tie" ></i>
+<p>
+  Contact with your personal advisor
+</p>
+  </div>
+</div>
+ 
+ 
+    
+ 
+ 
+   </div>
+ 
+  </div>
+</div>
+
+
+
+  <div  class="copyrigh-foot" >
+<div class="container-xxl  lf-con " >
+
+<div  class="  inner-p d-flex justify-content-between align-items-center" >
+
+  <div class="left-p" >
+  <p>
+    Copyright © 2023 - All rights reserved Ibiza Estates
+  </p>
+</div>
+
+
+<div  class="cen-p ml-auto mr-auto logo-footer">
+     <a href="">
+        <img src="f-logo.png" alt="">     
+     </a>
+
+</div>
+
+
+<div  class="right-part right-part-footer" >
+<a href="">Cookie</a>
+<a href="">Terms & Conditions</a>
+<a href="">Privacy Statement</a>
+<a href="">Sitemap</a>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+</footer>
+
+
+
+
+
+
+</body>
+
+</html>
